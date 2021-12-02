@@ -32,7 +32,7 @@
        (filter identity)
        count))
 
-(assert 7 (part-1 test-input))
+(assert (= 7 (part-1 test-input)))
 (part-1 final-input)
 ;; => 1342
 
@@ -44,6 +44,6 @@
                (rest input)
                input)))
 
-(assert 5 (part-2 test-input))
+(assert (= 5 (part-2 test-input)))
 (part-2 final-input)
 ;; => 1378
